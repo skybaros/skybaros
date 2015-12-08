@@ -1,0 +1,27 @@
+* {
+    font-family: Courier New;
+}
+
+.container {
+    margin: auto;
+}
+.info {
+    padding: 5px;
+    display: inline-block;
+    vertical-align: top;
+    margin: auto;
+}
+
+
+.chkbox {
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+body {
+    background-image: url("https://cdn.elegantthemes.com/blog/wp-content/uploads/2013/09/bg-10-full.jpg");
+}
+
+h1, h2 {
+    text-align: center;
+}

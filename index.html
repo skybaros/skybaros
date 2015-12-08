@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTME</title>
+    <link rel="stylesheet" href="csss.css">
+</head>
+<body>
+    <h1>Welcome to our social network called HTME!</h1>
+    <h2>What is HTME?</h2>
+    <p>HTME is a new social network experiment for those, who love web-programing. As soon as we are yound and fresh project, all kind of prefers and things you want to see here, will be mentioned. Stay cool and HTML!</p>
+    <h3>First of all you need to create an account</h3>
+    <div id="container">
+        <div id="left" class="info">
+            <form>
+                <fieldset>
+                    <legend>Important information</legend>
+                First name:<br>
+                <input type="text" name="firstname"><br>
+                Last name: <br>
+                <input type="text" name="lastname"><br><br>
+                E-mail:<br>
+                <input type="email" name="email"><br><br>
+                Password:<br>
+                <input type="password" name="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least: one number, one uppercase/lowercase letter, at least 8 characters long"><br>
+                Re-enter your password:<br>
+                <input type="password"><br><br>
+                    <label for="agree">Yes, send me e-mail notifications</label>
+                    <input type="checkbox" value="agree"><br>
+                    <label for="notify">I agree with terms and conditions</label>
+                    <input type="checkbox" value="send"><br><br>
+                    <input type="submit" value="Create">
+                    <input type="reset" value="Reset">
+                </fieldset>
+            </form>
+        </div>
+        <div id="right" class="info">
+            <form>
+                <fieldset>
+                    <legend>Additional information</legend>
+                Your country:<br>
+                <select name="country">
+                    <option value="UA">Ukraine</option>
+                    <option value="RUS">Rsussia</option>
+                    <option value="GER">Germany</option>
+                    <option value="POL">Poland</option>
+                    <option value="SW">Sweden</option>
+                    <option value="BG">Bulgaria</option>
+                    <option value="BEL">Belarus</option>
+                    <option value="USA">United States of America</option>
+                    <option value="EN">England</option>
+                    <option value="ESP">Spain</option>
+                </select><br><br>
+                Enter your city/town:<br>
+                <input type="text" name="city"><br>
+                Date of birth:<br>
+                <input type="date" name="bday"><br><br>
+                <input type="radio" name="sex" value="male">Male<br>
+                <input type="radio" name="sex" value="female">Female<br><br>
+                Enter your time, you are available, so we can contact you!
+                <input type="time" name="_time"><br>
+                <input type="color" name="clr" value="#CCFFFF">Choose your colot of your HTME-page! Be unique
+                </fieldset>
+            <br style="clear: both;">
+            </form>
+        </div><br>
+    </div>
+    <div>
+        <form method="post">
+            <p><b>Any issues? Leave ous you feedback or report a problem:</b></p>
+            <p><textarea rows="10" cols="45" name="text"></textarea></p>
+            <p><input type="submit" value="Submit"></p>
+        </form>
+        <form>
+            <p>Please, note! You can reach us <time>10<sup>am</sup> - 5<sup>pm</sup> Mon-Fri</time></p>
+        </form>
+    </div>
+  
+</body>
+</html>
+
