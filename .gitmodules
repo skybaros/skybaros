@@ -1,0 +1,3 @@
+[submodule "JS-jQuery"]
+	path = JS-jQuery
+	url = https://github.com/skybaros/JS-jQuery
